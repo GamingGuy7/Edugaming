@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" type="text/css" href="About us.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <title>Project web</title>
+
+  </head>
+
+  <body bgcolor="#EBEBEB">
+
+
+    <div class="topBar">
+      <img src="Images/bandicam 2018-12-17 18-14-27-082.jpg" class="edugamingLogo" alt="EduGaming">
+    <a class="barItems" href="Home page.html"> <img id="home" src="Images/2835277.png" alt="Home"></a>
+    <a class="barItems" href="Forums.html">Forums</a>
+    <a class="barItems" href="#News">News</a>
+    <div class="barItems">
+      <a class="topicbtn">Topics</a>
+      <div class="topicsLinks">
+        <a href="Esports.html">E-Sports</a>
+        <a href="Life Teaching Stories.html">life teaching stories</a>
+        <a href="Simulators.html">Simulators</a>
+
+    </div>
+    </div>
+    <!--<a class="barItems" href="#Topics">Topics</a>-->
+    <a class="barItems" href="About us.html">About us</a>
+    <button class="searchBtn" type="button" name="button"> </button>
+    <input class="searchBar" type="text" placeholder="Search..">
+  </div>
+
+
+
+
+    <img src="Images/ori-and-the-black-forest-pentavox Darkened Cropped.jpg" alt="" class="fix-the-bag">
+    <div class="aboutUsBG">
+
+
+    <div class="text-about-us">
+      About Us</div>
+
+
+
+
+    <div class="container">
+      <div class="one">
+        <div class="image1">
+          <img src="Images/phoenix-wright_-ace-attorney-hd-wallpapers-33498-3277155 Cropped.jpg" alt="" class="fix-pic1">
+        </div>
+
+        <div class="ourMission">
+            <p class="text1">Our mission</p>
+            <p class="text2">reaching out to the people who are looking for certain genres of Videogames which have the potential to benifit the players.
+               Our team believes that at our current modern generation the mainstream Videogames are being made primaritly for Entertainment which results to business
+              involvement in many cases and that could make it hard for those who are searching for those rare educational or inspired games amongst all the mainstream Videogames,
+               thus our website is created for the purpose of serving those type of players to find all about the different educational games they are looking,
+                also it could be a good oppertunity to give new meaning and points of views towards the Gaming world by introducing those educational games to any Gamer visiting the website.
+              <div class="lin1">
+              </div>
+        </div>
+      </div>
+
+
+
+      <div class="two">
+        <div class="image2">
+          <img src="Images/fantasyart-1544989358100-7935.jpg" alt="" class="fix-pic2">
+        </div>
+
+        <div class="ourVission">
+        <p class="text3">Our Vision</p>
+        <p class="text4">the Media in general is giving such a perspective that Videogames of all types are just a waste of time and are only made for entertainment,
+           however, only a few percentage of players are found to be interested in those educational or inspired Art videogames,
+           simplest example to differenciate is how some players experience the game by skipping all the text or details and just get into the action and interactive parts,
+           while others experience the game by exploring and learning different details from the world and envirounment of the game
+           which could be life related details that normal players fail to notice or learn from. This is why our team has the belief that more people should be introduced to this method
+           of approaching Videogames.
+          <div class="lin2">
+          </div>
+        </div>
+      </div>
+
+
+
+
+    </div>
+
+    <div class="container_social">
+
+
+
+      <div class="facebook">
+        <a class="socialmedia" id="face" href="javascript:void(0);" class=""><img class="FixTheIcon"src="Images/facebook-3-logo-png-transparent.png" alt="" ></a>
+        <div class="face">
+        <a class="face1" href="https://www.facebook.com/shaikhan.alhabshi">Shaikhan ALhabshi (Gaming Guy)</a>
+        </div>
+      </div>
+
+    <div class="linkedin">
+      <a class="socialmedia" id="link" href="javascript:void(0);" class=""><img class="FixTheIcon"src="Images/c59b2807ea44f0d70f41ca73c61d281d-linkedin-icon-logo-by-vexels.png" alt="" ></a>
+      <div class="link">
+      <a class="face1" href="https://www.linkedin.com/">LinkedIn</a>
+      </div>
+    </div>
+
+
+    <div class="instagram">
+      <a class="socialmedia" id="insta" href="javascript:void(0);" class=""><img class="FixTheIcon" src="Images/580b57fcd9996e24bc43c521.png" alt="" ></a>
+      <div class="insta">
+      <a class="face1" href="https://www.instagram.com/gaming_guy7/">@Gaming_Guy7</a>
+      <br>
+      <a class="face1" href="https://www.instagram.com/ziizoo_oo/">@ziizoo_oo</a>
+      </div>
+    </div>
+
+    <div class="youtube">
+      <a class="socialmedia" id="yout" href="javascript:void(0);" class=""><img class="FixTheIcon"src="Images/580b57fcd9996e24bc43c545.png" alt="" ></a>
+      <div class="yout">
+      <a class="face1" href="https://www.youtube.com/channel/UCzI30Xvxn_zb6NDMETSaCzQ">Gaming_Guy</a>
+      </div>
+    </div>
+
+    <!-- <div class="vl">
+
+    </div> -->
+
+    </div>
+    </div>
+
+    <div id="main-footer">
+      <a class="Feedback" href="Feedback.html">Feedback</a>
+      <p>&copy; 2018 EduGaming. All rights reserved.</p>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script type="text/javascript">
+  var socialbtn = $(".socialmedia");
+
+  socialbtn.on("click", function(){
+    var klass = $(this).attr("id");
+    $("."+klass).slideToggle("59000")
+  });
+</script>
+</html>

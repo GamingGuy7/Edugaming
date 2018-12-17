@@ -1,0 +1,365 @@
+/* Add a black background color to the top navigation */
+body{
+  margin: 0px;
+  background: url('Images/question-marks-background-5049 Darkened.jpg') repeat center center;
+
+}
+
+.edugamingLogo{
+  float: left;
+  width: 250px;
+}
+
+.topBar {
+    background-color: #5691ff;
+    height: 140px;
+    width: 100%;
+    display: inline-block;
+    margin: 0px;
+}
+.ourmission{
+
+  display: inline-block;
+}
+.title{
+  float: left;
+  color: #fff;
+  margin-left: 20px;
+  margin-right: 15px;
+}
+  .barItems {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    display: block;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 23px;
+    margin-top: 25px;
+    margin-left: 15px;
+    position: relative;
+    display: inline-block;
+}
+.barItems:hover {
+    background-color: #2570fc;
+    color: black;
+}
+
+#home{
+  margin-top: -25px;
+  margin-bottom: -20px;
+  width: 80px;
+  height: 80px;
+
+}
+
+.topicbtn {
+    font-family: 'Oswald', sans-serif;
+    background-color: #5691ff;
+    text-align: center;
+    border: none;
+    font-weight: bold;
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 23px;
+
+}
+
+.topicsLinks {
+  background-color: #f2f2f2;
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+    border: 5px #f2f2f2 solid;
+}
+
+.topicsLinks a {
+    color: #000;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.topicsLinks a:hover {
+  background-color: #fff;
+}
+
+.barItems:hover .topicsLinks {
+  display: block;
+}
+
+.topicbtn:hover {
+  color: #000;
+  background-color: #2570fc;
+}
+
+/* Style the search box inside the navigation bar */
+.searchBar {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 40px;
+    margin-right: 0px;
+    font-size: 17px;
+    width: 300px;
+}
+
+.searchBtn{
+  height: 34px;
+  width: 34px;
+  margin-top: 40px;
+  margin-right: 50px;
+  margin-left: 0px;
+  float: right;
+  display: inline-block;
+  background: url('Images/858732.png') left center no-repeat;
+  background-size: 100% 100%;
+  background-color: #f2f2f2;
+}
+
+.searchImg{
+  height: 2px;
+  width: 2px;
+}
+
+
+.fix-the-bag
+{
+margin-top: -10px;
+width: 100%;
+height: 550px;
+}
+
+/* .aboutUsBG{
+  background: url('Images/question-marks-background-5049.jpeg') no-repeat center center;
+  background-size: cover;
+  height: 1000px;
+  margin-top: -10px;
+} */
+
+
+.text-about-us
+{
+  color: #fff;
+  position:absolute;
+    top: 30%;
+    left: 10%;
+    font-size: 500%;
+    border-bottom: 6px solid white;
+    padding-bottom: 5px;
+}
+.container{
+  margin-top: 50px;
+  margin-left: 5%;
+  margin-right: 18%;
+  width: 80%;
+  min-height: 600px;
+}
+.one{
+  width: 90%;
+  margin-right: 90%;
+  height: 320px;
+}
+.fix-pic1
+{
+  width: 33%;
+  float: left;
+}
+.ourMission{
+  width: 65%;
+  margin-left: 10px;
+  float: left;
+  display: inline-block;
+}
+
+
+.text1
+{
+  font-weight: bold;
+  font-size: 40px;
+  color: blue;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  color: #eff0f2;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.text2
+{
+  color: #fff;
+font-size: 27px;
+}
+
+.all_line{
+  margin-bottom: 90%;
+  margin-left: 2%;
+  margin-right: 18%;
+  width: 80%;
+}
+
+
+.lin1
+{
+  width: 100%;
+  border-bottom: 5px solid #fff;
+  padding-bottom: 1px solid #fff;
+
+  margin-top: 100px;
+}
+
+.two{
+  width: 90%;
+  margin-right: 90%;
+  margin-top: 15%;
+}
+
+.fix-pic2
+{
+  width: 33%;
+  float: left;
+  height: 250px;
+}
+.ourVission{
+  width: 65%;
+  margin-left: 10px;
+  float: left;
+  display: inline-block;
+}
+
+
+
+.text3
+{
+  font-size: 40px;
+  color: blue;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  font-weight: bold;
+  color: #eff0f2;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.text4
+{
+  color: #fff;
+  font-size: 27px;
+}
+
+.lin2
+{
+  width: 100%;
+  border-bottom: 5px solid #fff;
+  padding-bottom: 1px solid #fff;
+
+  margin-top: 100px;
+}
+
+.container_social{
+  margin-top: 36%;
+  margin-left: 20%;
+  margin-left: 30%;
+margin-bottom:10%;
+
+}
+
+
+
+.FixTheIcon
+{
+  width: 40px;
+  height: 40px;
+}
+
+
+.FixTheIcon{
+  width: 8%;
+  height: 8%;
+
+}
+.face{
+  display: none;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: #eff0f2;
+  font-size: 35px;
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+.face1{
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: #eff0f2;
+  font-size: 35px;
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+.link{
+  display: none;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: #eff0f2;
+  font-size: 35px;
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+.insta{
+  display: none;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: #eff0f2;
+  font-size: 35px;
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+.yout{
+  display: none;
+}
+.youtube{
+
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: #eff0f2;
+  font-size: 35px;
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+
+.vl{
+  margin-top: -30%;
+  margin-left: 40%;
+  margin-right: 30%;
+  border-left: 3px solid black;
+  height: 350px;
+
+
+  margin-left: 40%;
+  margin-right: 30%;
+
+  border-left: 3px solid black;
+  height: 350px;
+}
+
+.Feedback{
+float: left;
+font-weight: bold;
+color: #000;
+display: inline-block;
+font-family:arial;
+text-transform:uppercase;
+letter-spacing: 0.1em;
+word-spacing: 0em;
+text-decoration: none;
+}
+
+.Feedback:hover {
+    color: #f2f2f2;
+    text-decoration: underline;
+}
+.Feedback:active{
+  color: #000;
+}
+
+#main-footer{
+  background: #5691ff;
+  color:#fff;
+  text-align: center;
+  padding:20px;
+}

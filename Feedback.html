@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" type="text/css" href="Feedback.css">
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+    <div class="topBar">
+
+    <img src="Images/bandicam 2018-12-17 18-14-27-082.jpg" class="edugamingLogo" alt="EduGaming">
+    <a class="barItems" href="Home page.html"> <img id="home" src="http://icons-for-free.com/free-icons/png/512/2835277.png" alt="Home"></a>
+    <a class="barItems" href="Forums.html">Forums</a>
+    <a class="barItems" href="#News">News</a>
+    <div class="barItems">
+      <a class="topicbtn">Topics</a>
+      <div class="topicsLinks">
+        <a href="Esports.html">E-Sports</a>
+        <a href="Life Teaching Stories.html">life teaching stories</a>
+        <a href="Simulators.html">Simulators</a>
+
+    </div>
+    </div>
+    <!--<a class="barItems" href="#Topics">Topics</a>-->
+    <a class="barItems" href="About us.html">About us</a>
+    <button class="searchBtn" type="button" name="button"> </button>
+    <input class="searchBar" type="text" placeholder="Search..">
+    </div>
+
+<div class="feedbacKBG">
+
+
+    <h3 class="fix-feed">Feedback</h3>
+<div class=" marg">
+
+<div class="container">
+
+<label class="FirstName">Name</label>
+<input id="firstName" class="text-area" style="background:#EBEBEB" type="text" placeholder="Type Your First Name...">
+<br>
+<label class="last-name">Last Name</label>
+<input id="lastName" class="text-area"style="background:#EBEBEB" type="text"  placeholder="Type Your Last Name...">
+<br>
+<label class="country">country</label>
+<input id="country" class="text-area"style="background:#EBEBEB" type="text"  placeholder="Indonesia,Smalia,USA...etc">
+<br>
+<label class="Email">Email</label>
+<input id="email" class="text-area"style="background:#EBEBEB" type="text"  placeholder="Example@example.com">
+<br>
+<label class="topic">Topic</label>
+<input id="topic" class="text-area" style="background:#EBEBEB"type="text"  placeholder="Type topic">
+<br>
+<label class="subject">Content</label>
+<input id="content" class="subject-text" style="background:#EBEBEB"type="text" placeholder="Write Somthing...">
+<br>
+
+  <input id="submitBtn" type="submit" value="Submit">
+
+</div>
+
+  </div>
+</div>
+
+
+      <footer id="main-footer">
+        <a class="Feedback" href="Feedback.html">Feedback</a>
+        <p>&copy; 2018 EduGaming. All rights reserved.</p>
+      </footer>
+
+
+  </body>
+
+  <script src="https://www.gstatic.com/firebasejs/5.7.0/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyCixAojEGs5W3CWP8hEDbZalzaZaYvx76g",
+      authDomain: "edugaming-forum.firebaseapp.com",
+      databaseURL: "https://edugaming-forum.firebaseio.com",
+      projectId: "edugaming-forum",
+      storageBucket: "edugaming-forum.appspot.com",
+      messagingSenderId: "335616689337"
+    };
+    firebase.initializeApp(config);
+  </script>
+
+<script type="text/javascript" src="Feedback.js">
+
+</script>
+
+
+</html>

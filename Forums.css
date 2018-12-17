@@ -1,0 +1,357 @@
+body{
+  margin: 0px;
+}
+
+
+.edugamingLogo{
+  float: left;
+  width: 250px;
+}
+
+.topBar {
+    background-color: #5691ff;
+    height: 140px;
+    width: 100%;
+    display: inline-block;
+    margin: 0px;
+}
+.title{
+  float: left;
+  color: #fff;
+  margin-left: 20px;
+  margin-right: 15px;
+}
+  .barItems {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    display: block;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 23px;
+    margin-top: 25px;
+    margin-left: 15px;
+    position: relative;
+    display: inline-block;
+}
+.barItems:hover {
+    background-color: #2570fc;
+    color: black;
+}
+
+#home{
+  margin-top: -25px;
+  margin-bottom: -20px;
+  width: 80px;
+  height: 80px;
+
+}
+
+.topicbtn {
+    font-family: 'Oswald', sans-serif;
+    background-color: #5691ff;
+    text-align: center;
+    border: none;
+    font-weight: bold;
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 23px;
+
+}
+
+.topicsLinks {
+  background-color: #f2f2f2;
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+    border: 5px #f2f2f2 solid;
+}
+
+.topicsLinks a {
+    color: #000;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.topicsLinks a:hover {
+  background-color: #fff;
+}
+
+.barItems:hover .topicsLinks {
+  display: block;
+}
+
+.topicbtn:hover {
+  color: #000;
+  background-color: #2570fc;
+}
+
+/* Style the search box inside the navigation bar */
+.searchBar {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 40px;
+    margin-right: 0px;
+    font-size: 17px;
+    width: 300px;
+}
+
+.searchBtn{
+  height: 34px;
+  width: 34px;
+  margin-top: 40px;
+  margin-right: 50px;
+  margin-left: 0px;
+  float: right;
+  display: inline-block;
+  background: url('Images/858732.png') left center no-repeat;
+  background-size: 100% 100%;
+  background-color: #f2f2f2;
+}
+
+.searchImg{
+  height: 2px;
+  width: 2px;
+}
+
+.forumBG{
+  background: url('Images/thumb-1920-331905 Darkened.jpg') no-repeat center center;
+  background-size: cover;
+  height: 800px;
+  margin-top: -10px;
+}
+
+input[type=submit] {
+    margin-top: 2%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    margin-left: 30px;
+
+}
+
+input[type=submit]:hover {
+    background-color: #808000;
+
+}
+
+.Forum-table th{
+  font-family: 'Patua One', cursive;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.5);
+    text-align: left;
+    padding: 20px;
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiP…dpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==);
+    background-size: 100%;
+    /* background-image: -moz-linear-gradient(#646f7f, #4a5564); */
+    /* background-image: -webkit-linear-gradient(#646f7f, #4a5564); */
+     background-image: linear-gradient(#30d5ff, #003c4f);
+    border-top: 1px solid #858d99;
+}
+
+.Forum-table tr{
+  display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+  .Forum-table tr td {
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 400;
+      color: #eaeaea;
+      font-size: 13px;
+      padding: 20px 20px 20px 20px;
+      border-bottom: 3px ridge #f2f2f2;
+      background-color: rgba(255, 255, 255, 0.1);
+}
+
+.Forum-table{
+  width: 95%;
+  margin-left: 2%;
+  border-collapse: collapse;
+}
+
+.topics{
+ width: 64%;
+}
+
+.discussion{
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 40px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.innerWindow{
+  max-height: 420px;
+  overflow-y: scroll;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 5px solid #2fb0c6;
+  width: 80%;
+  border-radius:30px;
+-moz-border-radius:30px;
+-webkit-border-radius:30px;
+}
+
+.closeIcon {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.topicsH1{
+  font-family: "Comic Sans MS", cursive, sans-serif;
+ color: #333333;
+ text-transform: capitalize;
+}
+
+#displayTopic h1{
+
+}
+
+#displayDate{
+
+}
+
+.openWindow{
+  font-weight: bold;
+  color: #2fb0c6;
+  display: inline-block;
+  font-family:arial;
+  text-transform:uppercase;
+  letter-spacing: 0.1em;
+  word-spacing: 0em;
+  text-decoration: none;
+}
+
+.openWindow:hover {
+    color: #2deaff;
+}
+
+.openWindow:active{
+  color: #005dff;
+}
+
+
+.displayTopic hr{
+  border-top: 2px dashed blue;
+  color: black;
+}
+
+.closeIcon:hover,
+.closeIcon:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.typeComment{
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #595757;
+  border-top: 0px;
+  border-right: 0px;
+  width: 80%;
+  height: 45px;
+}
+
+.typeComment:focus{
+  box-shadow: 0 0 0px #000;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 3.3px solid #2fb0c6;
+  border-top: 0px;
+  border-right: 0px;
+
+}
+
+.commentBtn{
+  margin-bottom: -70px;
+ display: inline-block;
+ background-color:#ccc;
+ padding:0.3em 1.2em;
+ margin:0 0.1em 0.1em 0;
+ border:0.16em solid rgba(255,255,255,0);
+ border-radius: 10px;
+ box-sizing: border-box;
+ text-decoration:none;
+ font-family:'Roboto',sans-serif;
+ font-weight:300;
+ color:#000;
+ text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+ text-align:center;
+ transition: all 0.2s;
+}
+
+.commentBtn:hover{
+  border-color: #007784;
+}
+
+.displayComments{
+  padding: 10px;
+  border:3px solid #000000;
+  border-radius: 24px;
+}
+
+.eachComment{
+  /* border-width: 2px;
+  border-style:hidden hidden dashed solid;
+border-color:#2eb9ce #2eb9ce #1bbed6 #000000; */
+}
+
+.commentLine{
+  border: 1px solid #2fb0c6;
+  border-radius: 4px;
+}
+
+
+.Feedback{
+float: left;
+font-weight: bold;
+color: #000;
+display: inline-block;
+font-family:arial;
+text-transform:uppercase;
+letter-spacing: 0.1em;
+word-spacing: 0em;
+text-decoration: none;
+}
+
+.Feedback:hover {
+    color: #f2f2f2;
+    text-decoration: underline;
+}
+.Feedback:active{
+  color: #000;
+}
+
+#main-footer{
+
+  background: #5691ff;
+  color:#fff;
+  text-align: center;
+  padding:20px;
+}
